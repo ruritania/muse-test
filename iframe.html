@@ -8,8 +8,8 @@
     <iframe id="iframe1" width="100%" height="1000px" frameborder="0" src=""https://ruritania.github.io/muse-test/tablet/index.html"></iframe>
                                                                                                                                     
     <script>
-      $(document).ready(function(){
-        var windWidth =  $(window).width(); /* gets window width in pixel after resize */
+      $(document).ready(function(){                                                                                                   var windWidth =  $(window).width(); /* gets window width in pixel after resize */
+        var iframe = $("#iframe1"); /* iframe dom element */
         console.log (windWidth);
         if(windWidth > 768){
             iframe.attr("src","https://ruritania.github.io/muse-test/index.html");  /*when window width between 900 and 1979*/
