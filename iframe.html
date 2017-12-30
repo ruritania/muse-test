@@ -5,15 +5,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
       $(document).ready(function(){
+        var windWidth =  $(window).width(); /* gets window width in pixel after resize */
+        
+        if(windWidth > 768){
+            iframe.attr("src","https://ruritania.github.io/muse-test/index.html");  /*when window width between 900 and 1979*/
+        } else {  
+            iframe.attr("src","https://ruritania.github.io/muse-test/tablet/index.html"); /*when window width 1980 and larger */
+        }
+        
         $(window).on('resize', function(){ /* resize event handler when user resizes the window */
             var windWidth =  $(window).width(); /* gets window width in pixel after resize */
             var iframe = $("#iframe1"); /* iframe dom element */
 
-            if(windWidth >= 900 && windWidth < 1980){
+            if(windWidth > 768){
                 iframe.attr("src","https://ruritania.github.io/muse-test/index.html");  /*when window width between 900 and 1979*/
-            }else if(windWidth >= 1980){  
+            } else {  
                 iframe.attr("src","https://ruritania.github.io/muse-test/tablet/index.html"); /*when window width 1980 and larger */
-             }
+            }
         })
       });
     </script>
