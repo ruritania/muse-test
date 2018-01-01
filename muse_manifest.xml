@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ruritania.github.io" resolutions="1x" timestamp="1514658767786">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ruritania.github.io" resolutions="1x" timestamp="1514817313003">
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="4137042244" ref="tablet>index"/>
+      <file name="index.css" crc="3938811941" ref="tablet>index"/>
       <file name="nomq_index.css" crc="3824530138" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="298643655" seo="true" mt="1514658764392" redirect="true"/>
+    <file name="index.html" crc="59695214" seo="true" mt="1514817308631" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
@@ -15,8 +15,8 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4149352831" ref="index"/>
-    <file name="nomq_index.css" crc="4007188723" ref="index"/>
+    <file name="index.css" crc="123783504" ref="index"/>
+    <file name="nomq_index.css" crc="4048556953" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index:tablet>index"/>
@@ -54,37 +54,37 @@
     <file name="pexels-photo-280204-u94-fr.jpg" crc="224045517" ref="index"/>
     <file name="scrooge-1951-1-u338-fr.jpg" crc="295373372" ref="index"/>
     <file name="scrooge-1951-1-u338-fr2.jpg" crc="194343786" ref="index"/>
-    <file name="pexels-photo-237180.jpg" crc="4070870109" ref="index:tablet>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="pexels-photo-237180.jpg" crc="146115444" ref="tablet>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="pexels-photo-301544.jpg" crc="3820816683" ref="index:tablet>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="pexels-photo-301544.jpg" crc="57389644" ref="tablet>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="pexels-photo-280204-u1226-fr.jpg" crc="20379807" ref="tablet>index:index"/>
-    <file name="pexels-photo-237230.jpg" crc="196901091" ref="tablet>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="pexels-photo-237230.jpg" crc="526556785" ref="tablet>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="pexels-photo-259698.jpg" crc="4228296154" ref="tablet>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="pexels-photo-259698.jpg" crc="3948847752" ref="tablet>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="scrooge2-u1231-fr.jpg" crc="3778559482" ref="tablet>index:index"/>
     <file name="alastair sim-u1230-fr.jpg" crc="297880683" ref="tablet>index:index"/>
-    <file name="pexels-photo-237180-u1002-fr.jpg" crc="329137406" ref="index"/>
-    <file name="pexels-photo-237230-u1030-fr.jpg" crc="4004229120" ref="index"/>
-    <file name="pexels-photo-259698-u1069-fr.jpg" crc="4102599467" ref="index"/>
-    <file name="pexels-photo-301544-u1108-fr.jpg" crc="3780345283" ref="index"/>
+    <file name="pexels-photo-237180-u1002-fr.jpg" crc="187728252" ref="index"/>
+    <file name="pexels-photo-237230-u1030-fr.jpg" crc="4131207338" ref="index"/>
+    <file name="pexels-photo-259698-u1069-fr.jpg" crc="298615091" ref="index"/>
+    <file name="pexels-photo-301544-u1108-fr.jpg" crc="4178622362" ref="index"/>
+    <file name="pexels-photo-237180-u1002-fr2.jpg" crc="4284267697" ref="index"/>
+    <file name="pexels-photo-237230-u1030-fr2.jpg" crc="3794644122" ref="index"/>
+    <file name="pexels-photo-259698-u1069-fr2.jpg" crc="314696603" ref="index"/>
+    <file name="pexels-photo-301544-u1108-fr2.jpg" crc="36821650" ref="index"/>
+    <file name="pexels-photo-237180-u1002-fr3.jpg" crc="3959949936" ref="index"/>
+    <file name="pexels-photo-237230-u1030-fr3.jpg" crc="412889824" ref="index"/>
+    <file name="pexels-photo-259698-u1069-fr3.jpg" crc="488418959" ref="index"/>
+    <file name="pexels-photo-301544-u1108-fr3.jpg" crc="202345662" ref="index"/>
+    <file name="pexels-photo-237180-u1002-fr4.jpg" crc="3770157351" ref="index"/>
+    <file name="pexels-photo-237230-u1030-fr4.jpg" crc="393769479" ref="index"/>
+    <file name="pexels-photo-259698-u1069-fr4.jpg" crc="41797777" ref="index"/>
+    <file name="pexels-photo-301544-u1108-fr4.jpg" crc="4271197731" ref="index"/>
   </folder>
-  <file name="index.html" crc="3843759281" seo="true" mt="1514658764390" redirect="true"/>
+  <file name="index.html" crc="436832726" seo="true" mt="1514817308635" redirect="true"/>
 </manifest>
