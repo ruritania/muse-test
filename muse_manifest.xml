@@ -1,90 +1,85 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ruritania.github.io" resolutions="1x" timestamp="1514817313003">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ruritania.github.io" resolutions="1x" timestamp="1514984530452">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="294225949" ref="index"/>
+    <file name="nomq_index.css" crc="3970390145" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="3803043152" ref="phone>index:tablet>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:tablet>index:index"/>
+    <file name="museconfig.js" crc="380897831" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="phone>index:tablet>index:index"/>
+    <file name="require.js" crc="4157109226" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="tablet>index:index"/>
+    <file name="webpro.js" crc="242022427" ref="tablet>index:index"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="tablet>index:index"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="tablet>index:index"/>
+    <file name="touchswipe.js" crc="4066113679" ref="tablet>index:index"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="pexels-photo-280204-u1226-fr.jpg" crc="20379807" ref="tablet>index:index"/>
+    <file name="pexels-photo-237180-u1248-fr.jpg" crc="146115444" ref="tablet>index"/>
+    <file name="pexels-photo-237230-u1253-fr.jpg" crc="526556785" ref="tablet>index"/>
+    <file name="pexels-photo-259698-u1258-fr.jpg" crc="3948847752" ref="tablet>index"/>
+    <file name="pexels-photo-301544-u1262-fr.jpg" crc="57389644" ref="tablet>index"/>
+    <file name="1449948856_scroogeoffice_by_bikovision-d689jdd.jpg" crc="3933502817" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="scrooge2.jpg" crc="4202737768" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="scrooge-1951-1.jpg" crc="3952703234" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="scrooge2-u1231-fr.jpg" crc="3778559482" ref="tablet>index:index"/>
+    <file name="alastair sim.jpg" crc="206453857" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pexels-photo-280204.jpg" crc="3872767245" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pexels-photo-237180-u1002-fr.jpg" crc="109044660" ref="index"/>
+    <file name="pexels-photo-237230-u1030-fr.jpg" crc="4163342810" ref="index"/>
+    <file name="pexels-photo-259698-u1069-fr.jpg" crc="3853113576" ref="index"/>
+    <file name="pexels-photo-301544-u1108-fr.jpg" crc="261063717" ref="index"/>
+    <file name="scrooge2-u271-fr.jpg" crc="4052608888" ref="index"/>
+    <file name="pexels-photo-237180-u1002-fr2.jpg" crc="4018605863" ref="index"/>
+    <file name="pexels-photo-237230-u1030-fr2.jpg" crc="516722327" ref="index"/>
+    <file name="pexels-photo-259698-u1069-fr2.jpg" crc="3777699392" ref="index"/>
+    <file name="pexels-photo-301544-u1108-fr2.jpg" crc="501189358" ref="index"/>
+    <file name="scrooge-1951-1-u338-fr.jpg" crc="295373372" ref="index"/>
+    <file name="pexels-photo-280204-u94-fr.jpg" crc="224045517" ref="index"/>
+    <file name="pexels-photo-237180-u1002-fr3.jpg" crc="416520891" ref="index"/>
+    <file name="pexels-photo-237230-u1030-fr3.jpg" crc="88062325" ref="index"/>
+    <file name="scrooge-1951-1-u338-fr2.jpg" crc="194343786" ref="index"/>
+    <file name="pexels-photo-259698-u1069-fr3.jpg" crc="367710054" ref="index"/>
+    <file name="pexels-photo-301544-u1108-fr3.jpg" crc="3766335284" ref="index"/>
+    <file name="pexels-photo-237180-u1002-fr4.jpg" crc="4070870109" ref="index"/>
+    <file name="pexels-photo-237230-u1030-fr4.jpg" crc="196901091" ref="index"/>
+    <file name="pexels-photo-259698-u1069-fr4.jpg" crc="4228296154" ref="index"/>
+    <file name="pexels-photo-301544-u1108-fr4.jpg" crc="3820816683" ref="index"/>
+  </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="3938811941" ref="tablet>index"/>
+      <file name="index.css" crc="3811120203" ref="tablet>index"/>
       <file name="nomq_index.css" crc="3824530138" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="59695214" seo="true" mt="1514817308631" redirect="true"/>
+    <file name="index.html" crc="3988163164" seo="true" mt="1514817281499" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="62426684" ref="phone>index"/>
       <file name="nomq_index.css" crc="3824530138" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4169509859" seo="true" mt="1514657948060" redirect="false"/>
+    <file name="index.html" crc="4246577159" seo="true" mt="1514657948060" redirect="false"/>
   </folder>
-  <folder name="css">
-    <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="123783504" ref="index"/>
-    <file name="nomq_index.css" crc="4048556953" ref="index"/>
-  </folder>
-  <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index:tablet>index"/>
-    <file name="museutils.js" crc="3803043152" ref="index:phone>index:tablet>index"/>
-    <file name="whatinput.js" crc="86476730" ref="index:phone>index:tablet>index"/>
-    <file name="museconfig.js" crc="4153641093" ref="index:phone>index:tablet>index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:tablet>index"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index:phone>index:tablet>index"/>
-    <file name="webpro.js" crc="242022427" ref="index:tablet>index"/>
-    <file name="musewpslideshow.js" crc="457073769" ref="index:tablet>index"/>
-    <file name="jquery.museoverlay.js" crc="483674903" ref="index:tablet>index"/>
-    <file name="touchswipe.js" crc="4066113679" ref="index:tablet>index"/>
-    <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
-    <file name="require.js" crc="4157109226" ref="index:phone>index:tablet>index"/>
-  </folder>
-  <folder name="images">
-    <file name="pexels-photo-280204.jpg" crc="3872767245" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="1449948856_scroogeoffice_by_bikovision-d689jdd.jpg" crc="3933502817" ref="index:tablet>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="scrooge2.jpg" crc="4202737768" ref="index:tablet>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="scrooge-1951-1.jpg" crc="3952703234" ref="index:tablet>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="scrooge2-u271-fr.jpg" crc="4052608888" ref="index"/>
-    <file name="alastair sim.jpg" crc="3807620331" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="pexels-photo-280204-u94-fr.jpg" crc="224045517" ref="index"/>
-    <file name="scrooge-1951-1-u338-fr.jpg" crc="295373372" ref="index"/>
-    <file name="scrooge-1951-1-u338-fr2.jpg" crc="194343786" ref="index"/>
-    <file name="pexels-photo-237180.jpg" crc="146115444" ref="tablet>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="pexels-photo-301544.jpg" crc="57389644" ref="tablet>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="pexels-photo-280204-u1226-fr.jpg" crc="20379807" ref="tablet>index:index"/>
-    <file name="pexels-photo-237230.jpg" crc="526556785" ref="tablet>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="pexels-photo-259698.jpg" crc="3948847752" ref="tablet>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="scrooge2-u1231-fr.jpg" crc="3778559482" ref="tablet>index:index"/>
-    <file name="alastair sim-u1230-fr.jpg" crc="297880683" ref="tablet>index:index"/>
-    <file name="pexels-photo-237180-u1002-fr.jpg" crc="187728252" ref="index"/>
-    <file name="pexels-photo-237230-u1030-fr.jpg" crc="4131207338" ref="index"/>
-    <file name="pexels-photo-259698-u1069-fr.jpg" crc="298615091" ref="index"/>
-    <file name="pexels-photo-301544-u1108-fr.jpg" crc="4178622362" ref="index"/>
-    <file name="pexels-photo-237180-u1002-fr2.jpg" crc="4284267697" ref="index"/>
-    <file name="pexels-photo-237230-u1030-fr2.jpg" crc="3794644122" ref="index"/>
-    <file name="pexels-photo-259698-u1069-fr2.jpg" crc="314696603" ref="index"/>
-    <file name="pexels-photo-301544-u1108-fr2.jpg" crc="36821650" ref="index"/>
-    <file name="pexels-photo-237180-u1002-fr3.jpg" crc="3959949936" ref="index"/>
-    <file name="pexels-photo-237230-u1030-fr3.jpg" crc="412889824" ref="index"/>
-    <file name="pexels-photo-259698-u1069-fr3.jpg" crc="488418959" ref="index"/>
-    <file name="pexels-photo-301544-u1108-fr3.jpg" crc="202345662" ref="index"/>
-    <file name="pexels-photo-237180-u1002-fr4.jpg" crc="3770157351" ref="index"/>
-    <file name="pexels-photo-237230-u1030-fr4.jpg" crc="393769479" ref="index"/>
-    <file name="pexels-photo-259698-u1069-fr4.jpg" crc="41797777" ref="index"/>
-    <file name="pexels-photo-301544-u1108-fr4.jpg" crc="4271197731" ref="index"/>
-  </folder>
-  <file name="index.html" crc="436832726" seo="true" mt="1514817308635" redirect="true"/>
+  <file name="index.html" crc="3859709268" seo="true" mt="1514984422968" redirect="true"/>
 </manifest>
